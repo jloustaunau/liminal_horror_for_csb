@@ -1,0 +1,85 @@
+{
+  "id": "liminal-horror-for-csb",
+  "title": "Liminal Horror for CSB",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "custom-system-builder",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Javier",
+      "email": "javier.loustaunau@gmail.com",
+      "url": "www.ruleofcool.com",
+      "discord": "javierl1",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/jloustaunau/Liminal-Horror-Compendiums",
+  "packs": [
+    {
+      "name": "liminalhorrormonsters",
+      "label": "Monsters",
+      "path": "packs/liminalhorrormonsters",
+      "type": "Actor",
+      "system": "custom-system-builder",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "npc",
+      "label": "NPC",
+      "path": "packs/npc",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder"
+    },
+    {
+      "name": "tables",
+      "label": "Tables",
+      "path": "packs/tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder"
+    },
+    {
+      "name": "items",
+      "label": "Items",
+      "path": "packs/items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder"
+    },
+    {
+      "name": "sample-scene",
+      "label": "Sample Scene",
+      "path": "packs/sample-scene",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder"
+    }
+  ]
+}
