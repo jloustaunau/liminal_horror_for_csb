@@ -25,6 +25,11 @@
     }
   ],
   "url": "https://github.com/jloustaunau/liminal_horror_for_csb",
+      "manifest": "https://github.com/jloustaunau/liminal_horror_for_csb/releases/download/liminal/module.json",
+    "download": "https://github.com/jloustaunau/liminal_horror_for_csb/archive/refs/tags/foundry.zip",
+
+    "version": "4.4.2"
+
   "packs": [
     {
       "name": "liminalhorrormonsters",
